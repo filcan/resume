@@ -1,0 +1,28 @@
+        th,
+        td {
+            padding: 5px;
+        }
+
+        .boxed {
+            background: #2e74b5;
+            font-size: 23;
+            color: white;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-top: 10px;
+            /* border: 1px solid black; */
+            padding: 0 10px;
+        }
+
+        .boxed2 {
+            background: #deeaf6;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-top: 10px;
+            ;
+            margin-left: 20px;
+            margin-right: 20px;
+            text-align: center;
+            /* border: 1px solid black; */
+            padding: 0 10px;
+        }

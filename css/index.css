@@ -1,28 +1,73 @@
-        th,
-        td {
-            padding: 5px;
-        }
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px black;
+    -moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 6px 6px -6px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
 
-        .boxed {
-            background: #2e74b5;
-            font-size: 23;
-            color: white;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            padding-top: 10px;
-            /* border: 1px solid black; */
-            padding: 0 10px;
-        }
+#footer {
+    -webkit-box-shadow: 8px 0 -6px 6px black;
+    -moz-box-shadow: 8px 0 -6px 6px black;
+    box-shadow: 6px 0 -6px 6px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    background: #202225;
+}
 
-        .boxed2 {
-            background: #deeaf6;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            padding-top: 10px;
-            ;
-            margin-left: 20px;
-            margin-right: 20px;
-            text-align: center;
-            /* border: 1px solid black; */
-            padding: 0 10px;
-        }
+#tr_objective,
+#tr_personalinfo,
+#tr_qualifications,
+#tr_education,
+#tr_workexperience,
+#tr_references {
+    -webkit-box-shadow: 0 4px 6px -6px black;
+    -moz-box-shadow: 0 4px 6px -6px black;
+    box-shadow: 0 4px 6px -6px black;
+    text-align: center;
+}
+
+#tr_tertiary {
+    background: #414a53;
+}
+
+#tr_secondary {
+    background: #414a53;
+}
+
+#tr_elementary {
+    background: #414a53;
+}
+
+.table {
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: large;
+}
+
+#td_solo {
+    font-weight: lighter;
+    font-size: large;
+    text-align: initial;
+    color: #a3a3a3;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+    width: 50%;
+}
+
+#td_content {
+    font-weight: bold;
+    font-size: medium;
+    color: #b9b9bb;
+    text-align: right;
+    width: 50%;
+}
+
+#td_description {
+    font-weight: lighter;
+    font-size: medium;
+    color: #a3a3a3;
+    width: 50%;
+}

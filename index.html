@@ -1,6 +1,6 @@
 <head>
     <title>Filbert Vincent Cañares</title>
-    <link rel="icon" href="asset\ic_fc.png">
+    <link rel="icon" href="asset\icon_fc.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!-- Latest compiled and minified CSS -->
@@ -17,6 +17,17 @@
     <link rel="stylesheet" type="text/css" href=".\css\index.css">
 </head>
 
+<!-- SCRIPT -->
+<script>
+    $(document).ready(function () {
+        var dob = '1993-04-27';
+        dob = new Date(dob);
+        var today = new Date();
+        var age = Math.floor((today - dob) / (365.25 * 24 * 60 * 60 * 1000));
+        $('#age').append(age);
+    });
+</script>
+
 <!-- NAVIGATION BAR -->
 <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background: #27292e">
     <a class="navbar-brand" href="#">
@@ -25,9 +36,6 @@
         </span>
         <strong>Filbert Vincent Cañares</strong>
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
             <li class="nav-item" style="padding-left: 10px; padding-right: 10px">
@@ -82,7 +90,7 @@
         </ul>
     </div>
 </nav>
-
+<button id="btn_Button">push</button>
 <!-- BODY -->
 
 <body>
@@ -161,7 +169,9 @@
                     </tr>
                     <tr>
                         <td id="td_content">AGE</td>
-                        <td id="td_description">25</td>
+                        <td id="td_description">
+                            <div id="age"></div>
+                        </td>
                     </tr>
                     <tr>
                         <td id="td_content">GENDER</td>

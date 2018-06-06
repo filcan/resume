@@ -34,14 +34,14 @@ body {
     -moz-box-shadow: 0 4px 6px -6px black;
     box-shadow: 0 4px 6px -6px black;
     text-align: center;
-    background: #343a40ad;
+    background: #343a40bb;
 }
 
 #tr_tertiary,
 #tr_secondary,
 #tr_elementary
  {
-    background: #414a5380;
+    background: #414a53bb;
 }
 
 .table {

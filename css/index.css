@@ -6,16 +6,25 @@
     font-weight: lighter;
 }
 
+body {
+    background-image: url("background.jpg");
+}
+
+.dropdown-item{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
 #footer {
     -webkit-box-shadow: 8px 0 -6px 6px black;
     -moz-box-shadow: 8px 0 -6px 6px black;
     box-shadow: 6px 0 -6px 6px black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: lighter;
-    background: #202225;
+    background: #020202bb;
 }
 
-#tr_objective,
+#tr_aboutme,
 #tr_personalinfo,
 #tr_qualifications,
 #tr_education,
@@ -25,18 +34,14 @@
     -moz-box-shadow: 0 4px 6px -6px black;
     box-shadow: 0 4px 6px -6px black;
     text-align: center;
+    background: #343a40ad;
 }
 
-#tr_tertiary {
-    background: #414a53;
-}
-
-#tr_secondary {
-    background: #414a53;
-}
-
-#tr_elementary {
-    background: #414a53;
+#tr_tertiary,
+#tr_secondary,
+#tr_elementary
+ {
+    background: #414a5380;
 }
 
 .table {

@@ -1,325 +1,404 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
-    <meta charset="UTF-8">
+    <title>Filbert Vincent Cañares</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>CV - FVC</title>
-    <link rel="shortcut icon" href="images/profile_photo.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="css/index.css">
-
-    <style>
-        img {
-            display: block;
-            /* margin-left: auto; */
-            margin-right: 20px;
-        }
-    </style>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href=".\css\index.css">
 </head>
 
+<!-- NAVIGATION BAR -->
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background: #27292e">
+    <a class="navbar-brand" href="#">
+        <span style="padding-right: 10px">
+            <i class="far fa-address-card"></i>
+        </span>
+        <strong>Filbert Vincent Cañares</strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item" style="padding-left: 10px; padding-right: 10px">
+                <a class="nav-link" href="#tr_objective">
+                    <span style="padding-right: 5px">
+                        <i class="fas fa-info"></i>
+                    </span>About Me</a>
+            </li>
+            <li class="nav-item" style="padding-left: 10px; padding-right: 10px">
+                <a class="nav-link" href="#tr_personalinfo">
+                    <span style="padding-right: 5px">
+                        <i class="fas fa-user"></i>
+                    </span>Personal Info</a>
+            </li>
+            <li class="nav-item" style="padding-left: 10px; padding-right: 10px">
+                <a class="nav-link" href="#tr_qualifications">
+                    <span style="padding-right: 5px">
+                        <i class="fas fa-code"></i>
+                    </span>Qualifications</a>
+            </li>
+            <li class="nav-item dropdown" style="padding-left: 10px; padding-right: 10px">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    <span style="padding-right: 5px">
+                        <i class="fas fa-graduation-cap"></i>
+                    </span>Education</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#tr_tertiary">Tertiary</a>
+                    <a class="dropdown-item" href="#tr_secondary">Secondary</a>
+                    <a class="dropdown-item" href="#tr_elementary">Elementary</a>
+                </div>
+            </li>
+            <li class="nav-item" style="padding-left: 10px; padding-right: 10px">
+                <a class="nav-link" href="#tr_workexperience">
+                    <span style="padding-right: 5px">
+                        <i class="fas fa-briefcase"></i>
+                    </span>Experience</a>
+            </li>
+            <li class="nav-item" style="padding-left: 10px; padding-right: 10px">
+                <a class="nav-link" href="#tr_references">
+                    <span style="padding-right: 5px">
+                        <i class="fas fa-users"></i>
+                    </span>References</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item" style="padding-left: 10px; padding-right: 10px">
+                <a class="nav-link" href=".\asset\Filcan CV.docx" download>
+                    <span style="padding-right: 5px">
+                        <i class="fas fa-download"></i>
+                    </span>Download CV</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- BODY -->
+
 <body>
-    <div class="container py-3"></div>
-    <div class="col-md-12 mx-auto" style="background: white; border: red;">
-        <div class="card-header">
-            <img src="images/profile_photo.png" style="width: 200px; height: auto" align="right">
-            <p style="color: #2e74b5; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 30px">Filbert Vincent G. Cañares</p>
-            <p></p>
-            <div>
-                <table class="col-md6">
-                    <tr>
-                        <td>
-                            <img src="images/icons/ic_location.png" width="25px" height="auto">
-                        </td>
-                        <td>
-                            320, Purok Blue Marlin, </br>
-                            Tungkop Minglanilla, Cebu </br>
-                            6046 PHILIPPINES
+    <div id="background" style="background:#27292e">
+        <div class="container col-sm-9" style="padding-top: 70px; padding-bottom: 20px">
+            <div class="card" style="background: #35363b">
+                <div class="container col-sm-lg bg-dark">
+                    <table class="table table-borderless text-white table-white">
+                        <tr>
+                            <td colspan="2">
+                                <div style="text-align: center">
+                                    <img src=".\asset\filgrad.jpg" width="200" height="200" style="border-radius: 100px">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td_content">
+                                <span style="padding-right: 15px">
+                                    <i class="fas fa-map-marker"></i>
+                                </span>ADDRESS</td>
+                            <td id="td_description">320, Purok Blue Marlin, Tungkop </br>
+                                Minglanilla, Cebu 6046</br>
+                                PHILIPPINES</br>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td_content">
+                                <span style="padding-right: 15px">
+                                    <i class="fas fa-envelope"></i>
+                                </span>E-MAIL</td>
+                            <td id="td_description">
+                                <a href="mailto:filcan427@gmail.com" style="color: #a3a3a3;">filcan427@gmail.com</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td_content">
+                                <span style="padding-right: 15px">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </span>PHONE</td>
+                            <td id="td_description">(+63)932-732-9627</td>
+                        </tr>
+                    </table>
+                </div>
+                <table class="table table-borderless text-white table-white">
+                    <tr class="bg-dark" id="tr_objective">
+                        <td colspan="2" class="text-white">
+                            <h5>
+                                <span style="padding-right: 15px">
+                                    <i class="fas fa-info"></i>
+                                </span>ABOUT ME</h5>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <img src="images/icons/ic_email.png" width="25px" height="auto">
+                        <td colspan="2" id="td_solo">
+                            <!-- <p>To be employed and help to achieve company’s goals where my education, qualifications and acquired
+                                skills will be utilized to their best to improve the company’s overall performance.</p> -->
+                            <p>
+                                Hi, I'm Filbert Vincent Cañares. I'm a software developer looking to learn and work on creative innovative ideas that can
+                                have a positive effect to the world.</p>
                         </td>
-                        <td>
-                            <a href="mailto:filcan427@gmail.com">filcan427@gmail.com</a>
+                    </tr>
+                    <tr class="bg-dark" id="tr_personalinfo">
+                        <td colspan="2" class="text-white">
+                            <h5>
+                                <span style="padding-right: 15px">
+                                    <i class="fas fa-user"></i>
+                                </span>PERSONAL INFORMATION</h5>
+                    </tr>
+                    <tr>
+                        <td id="td_content">BIRTHDATE</td>
+                        <td id="td_description">April 27, 1993</td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">BIRTHPLACE</td>
+                        <td id="td_description">Cebu City</td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">AGE</td>
+                        <td id="td_description">25</td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">GENDER</td>
+                        <td id="td_description">Male</td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">CIVIL STATUS</td>
+                        <td id="td_description">Single</td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">CITIZENSHIP</td>
+                        <td id="td_description">Filipino</td>
+                    </tr>
+                    <tr>
+                        <td id="td_content" style="width: 20%">RELIGION</td>
+                        <td id="td_description">Roman Catholic</td>
+                    </tr>
+                    <tr class="bg-dark" id="tr_qualifications">
+                        <td colspan="2" class="text-white">
+                            <h5>
+                                <span style="padding-right: 15px">
+                                    <i class="fas fa-code"></i>
+                                </span>QUALIFICATIONS</h5>
                         </td>
                     </tr>
                     <tr>
-                        <td>
-                            <img src="images/icons/ic_phone.png" width="25px" height="auto">
+                        <td id="td_content">PROGRAMMING LANGUAGES</td>
+                        <td id="td_description">C, C++, C#, SQL and JavaScript</td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">SOFTWARE APPLICATION</td>
+                        <td id="td_description">MS Office, Android Studio, Eclipse, Visual Studio, Visual Code, MikroC </td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">DATABASES</td>
+                        <td id="td_description">Access, MySQL, MS SQL Server</td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">WEB</td>
+                        <td id="td_description">HTML, Bootstrap, JQuery, Node JS</td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">GRAPHIC DESIGN</td>
+                        <td id="td_description">Photoshop, Illustrator, AUTOCAD</td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">HARDWARE</td>
+                        <td id="td_description">PC troubleshooting, Network troubleshooting, PIC Microcontroller</td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">OTHER QUALIFICATIONS</td>
+                        <td id="td_description">Can work alone or as a team, Hardworking and Creative</td>
+                    </tr>
+                    <tr class="bg-dark" id="tr_education">
+                        <td colspan="2" class="text-white">
+                            <h5>
+                                <span style="padding-right: 15px">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </span>EDUCATION</h5>
                         </td>
-                        <td>
-                            +63 932 732 9627
+                    </tr>
+                    <tr id="tr_tertiary">
+                        <td colspan="2" class="text-white">
+                            <h6 style="padding-left: 50px; text-align:left">TERTIARY EDUCATION</h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">2013 – 2017</td>
+                        <td id="td_description">Cebu Institute of Technology – University </br>
+                            N. Bacalso Ave., Cebu City </br>
+                            Bachelor of Science in Computer Engineering
+                            <strong>(Graduated)</strong>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">2011 – 2013</td>
+                        <td id="td_description">Asian College of Technology</br>
+                            P. del Rosario, Cebu City</br>
+                            Bachelor of Science in Computer Engineering
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">2009 – 2010</td>
+                        <td id="td_description">Asian College of Technology</br>
+                            P. del Rosario, Cebu City</br>
+                            Bachelor of Science in Information Technology
+                        </td>
+                    </tr>
+                    <tr id="tr_secondary">
+                        <td colspan="2" class="text-white">
+                            <h6 style="padding-left: 50px; text-align:left">SECONDARY EDUCATION</h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">2007 – 2009</td>
+                        <td id="td_description">St. Paul College Foundation, Inc. </br>
+                            Bulacao, Cebu City
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">2005 – 2007</td>
+                        <td id="td_description">Immaculate Heart of Mary Academy </br>
+                            Minglanilla, Cebu
+                        </td>
+                    </tr>
+                    <tr id="tr_elementary">
+                        <td colspan="2" class="text-white">
+                            <h6 style="padding-left: 50px; text-align:left">ELEMENTARY EDUCATION</h6>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">1999 – 2005</td>
+                        <td id="td_description">Tungkop Elementary School </br>
+                            Tungkop, Minglanilla, Cebu
+                        </td>
+                    </tr>
+                    <tr class="bg-dark" id="tr_workexperience">
+                        <td colspan="2" class="text-white">
+                            <h5>
+                                <span style="padding-right: 15px">
+                                    <i class="fas fa-briefcase"></i>
+                                </span>WORK EXPERIENCE</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">
+                            WEB DEVELOPER</br>
+                            <div style="font-weight: lighter">February 2018 – Present</div>
+                        </td>
+                        <td id="td_description">M. Lhuillier Financial Services Inc.</br>
+                            M. Lhuillier MIS Extension Office, 6000 Cebu
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">
+                            PROGRAMMER (PART TIME)</br>
+                            <div style="font-weight: lighter">July 2017 – December 2017</div>
+                        </td>
+                        <td id="td_description">EKAJ Construction & Design Services</br>
+                            745 Acacia St., Tungkop Minganilla, 6046 Cebu
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">
+                            ON-THE-JOB TRAINEE</br>
+                            <div style="font-weight: lighter">March 2016 – May 2016</div>
+                        </td>
+                        <td id="td_description">Teksource Computer Systems Corp. </br>
+                            2nd Level, Elcor Building, Sanciangko Street, Cebu City
+                        </td>
+                    </tr>
+                    <tr class="bg-dark" id="tr_references">
+                        <td colspan="2" class="text-white">
+                            <h5>
+                                <span style="padding-right: 15px">
+                                    <i class="fas fa-users"></i>
+                                </span>REFERENCES</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">
+                            Engr. Roel B. Lauron</br>
+                            <div style="font-weight: lighter">Chairman – CPE Department </div>
+                        </td>
+                        <td id="td_description">
+                            Cebu Institute of Technology – University</br>
+                            Natalio B. Bacalso Ave, Cebu City, 6000 Cebu</br>
+                            (+63)917-311-8450
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">
+                            Leopoldo “Jake” V. Cabalan, Jr.</br>
+                            <div style="font-weight: lighter">General Manager</div>
+                        </td>
+                        <td id="td_description">
+                            EKAJ Construction & Design Services</br>
+                            745 Acacia St., Tungkop Minganilla, 6046 Cebu</br>
+                            (+63)922-732-3639
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="td_content">
+                            Jayrek R. Tabasa</br>
+                            <div style="font-weight: lighter">Android Developer</div>
+                        </td>
+                        <td id="td_description">
+                            M. Lhuillier Financial Services Inc.</br>
+                            M Lhuillier MIS Extension Office, 6000 Cebu</br>
+                            (+63)930-570-4438
                         </td>
                     </tr>
                 </table>
             </div>
-            <div id="objective">
-                <div class="boxed">
-                    <strong style="font-size: 20px">OBJECTIVE</strong>
-                </div>
-                <p style="padding-left: 20px; padding-right: 20px">To be employed and help to achieve the goals of the company where my education, qualifications and acquired
-                    skills will be utilized to their best to improve the company’s overall performance.</p>
-            </div>
-            <div id="peronalinfo">
-                <div class="boxed">
-                    <strong style="font-size: 20px">PERSONAL INFORMATION</strong>
-                </div>
-                <div style="padding-left: 20px; padding-right: 20px">
-                    <table style="width: 100%">
-                        <tr>
-                            <td style="width: 30%">Birthdate</td>
-                            <td style="width: 10%">:</td>
-                            <td>April 27, 1993</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">Birthplace</td>
-                            <td style="width: 10%">:</td>
-                            <td>Cebu City</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">Age</td>
-                            <td style="width: 10%">:</td>
-                            <td>24</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">Gender</td>
-                            <td style="width: 10%">:</td>
-                            <td>Male</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">Civil Status</td>
-                            <td style="width: 10%">:</td>
-                            <td>Single</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">Citizenship</td>
-                            <td style="width: 10%">:</td>
-                            <td>Filipino</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">Religion</td>
-                            <td style="width: 10%">:</td>
-                            <td>Roman Catholic</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div id="qualifications">
-                <div class="boxed">
-                    <strong style="font-size: 20px">QUALIFICATIONS</strong>
-                </div>
-                <div style="padding-left: 20px; padding-right: 20px">
-                    <table style="width: 100%">
-                        <tr>
-                            <td style="width: 30%">Programming Languages</td>
-                            <td style="width: 10%">:</td>
-                            <td>C, C++, C#, SQL and Java</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">Software Application</td>
-                            <td style="width: 10%">:</td>
-                            <td>MS Office, Android Studio, Eclipse, Visual Studio, Visual Code, MikroC </td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">Databases</td>
-                            <td style="width: 10%">:</td>
-                            <td>Access, MySQL, SQL Server</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">Web</td>
-                            <td style="width: 10%">:</td>
-                            <td>HTML, CSS, PHP, Node JS</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">Graphic Design</td>
-                            <td style="width: 10%">:</td>
-                            <td>Photoshop, Illustrator, AUTOCAD</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">Hardware</td>
-                            <td style="width: 10%">:</td>
-                            <td>PC troubleshooting, Network troubleshooting, PIC Microcontroller</td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">Other Qualifications</td>
-                            <td style="width: 10%">:</td>
-                            <td>Can work alone or as a team, Hardworking and Creative</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div id="edbackground">
-                <div class="boxed">
-                    <strong style="font-size: 20px">EDUCATIONAL BACKGROUND</strong>
-                </div>
-                <div class="boxed2">
-                    <strong style="font-size: 20px">Tertiary Education</strong>
-                </div>
-                <div style="padding-left: 20px; padding-right: 20px">
-                    <table style="width: 100%">
-                        <tr>
-                            <td style="width: 30%">2013 – 2017</td>
-                            <td style="width: 10%">:</td>
-                            <td>Cebu Institute of Technology – University </br>
-                                N. Bacalso Ave., Cebu City </br>
-                                Bachelor of Science in Computer Engineering
-                                <strong>(Graduated)</strong>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">2011 – 2013</td>
-                            <td style="width: 10%">:</td>
-                            <td>Asian College of Technology</br>
-                                P. del Rosario, Cebu City</br>
-                                Bachelor of Science in Computer Engineering
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">2009 – 2010</td>
-                            <td style="width: 10%">:</td>
-                            <td>Asian College of Technology</br>
-                                P. del Rosario, Cebu City</br>
-                                Bachelor of Science in Information Technology
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="boxed2">
-                    <strong style="font-size: 20px">Secondary Education</strong>
-                </div>
-                <div style="padding-left: 20px; padding-right: 20px">
-                    <table style="width: 100%">
-                        <tr>
-                            <td style="width: 30%">2007 – 2009</td>
-                            <td style="width: 10%">:</td>
-                            <td>St. Paul College Foundation, Inc. </br>
-                                Bulacao, Cebu City
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">2005 – 2007</td>
-                            <td style="width: 10%">:</td>
-                            <td>Immaculate Heart of Mary Academy </br>
-                                Minglanilla, Cebu
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="boxed2">
-                    <strong style="font-size: 20px">Elementary Education</strong>
-                </div>
-                <div style="padding-left: 20px; padding-right: 20px">
-                    <table style="width: 100%">
-                        <tr>
-                            <td style="width: 30%">1999 – 2005</td>
-                            <td style="width: 10%">:</td>
-                            <td>Tungkop Elementary School </br>
-                                Tungkop, Minglanilla, Cebu
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div id="affiliation">
-                <div class="boxed">
-                    <strong style="font-size: 20px">AFFILIATION</strong>
-                </div>
-                <div style="padding-left: 20px; padding-right: 20px">
-                    <table style="width: 100%">
-                        <tr>
-                            <td style="width: 30%">
-                                <strong>Member</strong>
-                                </br>
-                                2015 – 2017
-                            </td>
-                            <td style="width: 10%">:</td>
-                            <td>Institute of Computer Engineering of the Philippines (ICpEP) </br>
-                                Cebu Institute of Technology – University
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-            <div id="workexp">
-                <div class="boxed">
-                    <strong style="font-size: 20px">WORK EXPERIENCE</strong>
-                </div>
-                <div style="padding-left: 20px; padding-right: 20px">
-                    <table style="width: 100%">
-                        <tr>
-                            <td style="width: 30%">
-                                <strong>Web Developer</strong></br>
-                                February 2018 – Present
-                            </td>
-                            <td style="width: 10%">:</td>
-                            <td>M. Lhuillier Financial Services Inc.</br>
-                                M Lhuillier MIS Extension Office, 6000 Cebu
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">
-                                <strong>Programmer</strong> (Part Time)</br>
-                                July 2017 – December 2017
-                            </td>
-                            <td style="width: 10%">:</td>
-                            <td>EKAJ Construction & Design Services</br>
-                                745 Acacia St., Tungkop Minganilla, 6046 Cebu
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">
-                                <strong> On-The-Job Trainee</strong>
-                                </br>
-                                March 2016 – May 2016
-                            </td>
-                            <td style="width: 10%">:</td>
-                            <td>Teksource Computer Systems Corp. </br>
-                                2nd Level, Elcor Building, Sanciangko Street, Cebu City
-                            </td>
-                        </tr>
-
-                    </table>
-                </div>
-            </div>
-            <div id="references">
-                <div class="boxed">
-                    <strong style="font-size: 20px">REFERENCES</strong>
-                </div>
-                <div style="padding-left: 20px; padding-right: 20px">
-                    <table style="width: 100%">
-                        <tr>
-                            <td style="width: 30%">
-                                <strong>Engr. Roel B. Lauron</strong>
-                                </br>
-                                Chairman – CPE Department </br>
-                                Cebu Institute of Technology – University</br>
-                                Natalio B. Bacalso Ave, Cebu City, 6000 Cebu</br>
-                                (+63)917-311-8450
-                            </td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td style="width: 30%">
-                                <strong>Leopoldo “Jake” V. Cabalan, Jr.</strong>
-                                </br>
-                                General Manager</br>
-                                EKAJ Construction & Design Services</br>
-                                745 Acacia St., Tungkop Minganilla, 6046 Cebu</br>
-                                (+63)922-732-3639
-                            </td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
         </div>
+    </div>
 </body>
 
-</html>
+<!-- FOOTER -->
+<footer class="footer">
+    <nav class="navbar navbar-expand-md navbar-dark justify-content-center" id="footer">
+        <a class="navbar-brand" href="#footer">
+            <span style="padding-right: 10px">
+                <i class="fas fa-user-circle"></i>
+            </span>
+            <strong>Social</strong>
+        </a>
+        <ul class="navbar-nav">
+            <li class="nav-item" style="padding-left: 20px; padding-right: 20px">
+                <a class="nav-link" href="https://www.facebook.com/filcan427" target="_blank">
+                    <span style="padding-right: 5px">
+                        <i class="fab fa-facebook"></i>
+                    </span>Filbert Cañares</a>
+            </li>
+            <li class="nav-item" style="padding-left: 20px; padding-right: 20px">
+                <a class="nav-link" href="https://www.instagram.com/filcan/" target="_blank">
+                    <span style="padding-right: 5px">
+                        <i class="fab fa-instagram"></i>
+                    </span>@filcan</a>
+            </li>
+            <li class="nav-item" style="padding-left: 20px; padding-right: 20px">
+                <a class="nav-link" href="https://twitter.com/filcan427" target="_blank">
+                    <span style="padding-right: 5px">
+                        <i class="fab fa-twitter"></i>
+                    </span>@filcan427</a>
+            </li>
+            <li class="nav-item" style="padding-left: 20px; padding-right: 20px">
+                <a class="nav-link" href="https://www.tumblr.com/blog/filcan427" target="_blank">
+                    <span style="padding-right: 5px">
+                        <i class="fab fa-tumblr-square"></i>
+                    </span>filcan</a>
+            </li>
+            <li class="nav-item" style="padding-left: 20px; padding-right: 20px">
+                <a class="nav-link" href="https://www.linkedin.com/in/filcan/" target="_blank">
+                    <span style="padding-right: 5px">
+                        <i class="fab fa-linkedin"></i>
+                    </span>Filbert Vincent Cañares</a>
+            </li>
+        </ul>
+    </nav>
+</footer>
